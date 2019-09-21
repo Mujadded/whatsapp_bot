@@ -1,4 +1,4 @@
-# Welcome to FacebookScrapper Gem 👋
+# Welcome to WhatsappBot Gem 👋
 ![Version](https://img.shields.io/badge/version-1.3.2-blue.svg?cacheSeconds=2592000)
 [![Twitter: mujadded](https://img.shields.io/twitter/follow/mujadded.svg?style=social)](https://twitter.com/mujadded)
 
