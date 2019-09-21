@@ -44,7 +44,11 @@ class WhatsappBot
     all_messages = text.split("\n")
     text_box = @driver.find_element(css: "[contenteditable='true']")
     all_messages.each do |message|
-      text_box.send_keys(message)
+      begin
+        text_box.send_keys(message)
+      rescue Selenium::WebDriver::Error::UnknownError => e
+        text_box.send_keys(message.encode("iso-8859-1", :invalid => :replace, :undef => :replace).encode("utf-8"))
+      end
       text_box.send_keys [:shift, :enter]
     end
     @driver.find_element(css: 'span[data-icon="send"]').click
