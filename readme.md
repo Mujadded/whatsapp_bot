@@ -1,5 +1,5 @@
 # Welcome to FacebookScrapper Gem 👋
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
+![Version](https://img.shields.io/badge/version-1.3.2-blue.svg?cacheSeconds=2592000)
 [![Twitter: mujadded](https://img.shields.io/twitter/follow/mujadded.svg?style=social)](https://twitter.com/mujadded)
 
 > This gem lets you send whatsapp message without using its api only whats app web. It lets you log in with webdriver and then you can send message with your app. It can help if you want to make a app that can send message but you dont want to buy any app
