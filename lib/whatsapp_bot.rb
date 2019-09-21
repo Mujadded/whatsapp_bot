@@ -41,7 +41,7 @@ class WhatsappBot
 
   def send_text_message(to, text)
     @driver.find_element(css: "[title='#{to}']").click
-    all_messages = text.split('\n')
+    all_messages = text.split("\n")
     text_box = @driver.find_element(css: "[contenteditable='true']")
     all_messages.each do |message|
       text_box.send_keys(message)
