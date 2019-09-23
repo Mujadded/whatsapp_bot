@@ -50,6 +50,8 @@ Then to send message
 ```
 whatsapp_bot.send_message(to: 'contact exact name', text: 'your text')
 ```
+
+Note: You cannot send emoji's through this gem yet. This is a issue because selenium driver dont allow it yet
 ## Author
 
 👤 **Mujadded Al Rabbani Alif**
